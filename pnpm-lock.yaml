@@ -4,6 +4,9 @@ dependencies:
   astro:
     specifier: ^2.4.1
     version: 2.4.1
+  reveal.js:
+    specifier: ^4.5.0
+    version: 4.5.0
 
 packages:
 
@@ -2501,6 +2504,11 @@ packages:
   /reusify@1.0.4:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
+    dev: false
+
+  /reveal.js@4.5.0:
+    resolution: {integrity: sha512-Lx1hUWhJR7Y7ScQNyGt7TFzxeviDAswK2B0cn9RwbPZogTMRgS8+FTr+/12KNHOegjvWKH0H0EGwBARNDPTgWQ==}
+    engines: {node: '>=10.0.0'}
     dev: false
 
   /rollup@3.23.0:
